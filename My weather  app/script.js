@@ -1,7 +1,6 @@
 const appKey = `f36545445b5719601c6b4551494d5728`;
-const CityPrompt = prompt('Какой город?');
 
-const link = `http://api.openweathermap.org/geo/1.0/direct?q=${CityPrompt}&limit=5&appid=${appKey}`;
+const link = `http://api.openweathermap.org/geo/1.0/direct?q=${document.getElementById(name)}&limit=5&appid=${appKey}`;
 const link2 = `https://api.openweathermap.org/data/2.5/weather?`;
 
 const store = {
